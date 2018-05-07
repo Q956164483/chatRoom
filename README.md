@@ -1,7 +1,7 @@
-# vue+koa2即时聊天，实时推送比特币价格，爬取电影网站
-## 技术栈
+## vue+koa2即时聊天，实时推送比特币价格，爬取电影网站
+### 技术栈
 vue+vuex+vue-router+socket.io+koa2+mongodb+pm2自动化部署+图灵机器人+[npm script打包，cdn同步，服务器上传一个命令全搞定]
-## 功能清单
+### 功能清单
 登陆注册
 
 获取聊天记录（包含前端分页优化）
@@ -24,27 +24,10 @@ vue+vuex+vue-router+socket.io+koa2+mongodb+pm2自动化部署+图灵机器人+[n
 
 pm2自动部署
 
-## [效果演示](http://aibi.ren/movie-chat/#/)chrome下F12或者手机打开预览
+### [效果演示](http://aibi.ren/movie-chat/#/)chrome下F12或者手机打开预览
+后端的代码暂时不开放出来，因为涉及到很多个人的配置数据，如果实在需要可以加微信 MSC199312 （需要付费0.0！），毕竟这个小项目断断续续也做了几个星期，也还花了些心思，而且涉及的知识点也都还是很广很实用的，还望理解，其实主要原因还是穷[泪奔]
 
-### 后端接口暂时开放，但是后端的代码暂时不开放出来，因为涉及到太多个人的配置数据，如果实在需要可以加微信 MSC199312 （需要付费0.0！），毕竟这个小项目断断续续也做了几个星期，也还花了些心思，而且涉及的知识点也都还是很广很实用的，还望理解，其实主要原因还是穷[泪奔]
-
-## 运行截图
-<center>
-<img alt="主页" src="https://q956164483.github.io/chatRoom/resources/1.PNG"/>
-<img alt="聊天" src="https://q956164483.github.io/chatRoom/resources/2.PNG"/>
-<img alt="群信息" src="https://q956164483.github.io/chatRoom/resources/3.PNG"/>
-<img alt="个人信息" src="https://q956164483.github.io/chatRoom/resources/4.PNG"/>
-<img alt="发送表情" src="https://q956164483.github.io/chatRoom/resources/5.PNG"/>
-<img alt="发送图片和文件" src="https://q956164483.github.io/chatRoom/resources/6.PNG"/>
-<img alt="图片裁剪" src="https://q956164483.github.io/chatRoom/resources/7.PNG"/>
-<img alt="菜单" src="https://q956164483.github.io/chatRoom/resources/8.PNG"/>
-<img alt="群聊搜索" src="https://q956164483.github.io/chatRoom/resources/9.PNG"/>
-<img alt="群信息" src="https://q956164483.github.io/chatRoom/resources/10.PNG"/>
-<img alt="建群" src="https://q956164483.github.io/chatRoom/resources/11.PNG"/>
-<img alt="消息推送" src="https://q956164483.github.io/chatRoom/resources/12.PNG"/>
-</center>
-
-## 部分代码
+### 部分代码
 客户端 main.js
 ```javascript
 import Vue from 'vue'
@@ -176,3 +159,17 @@ const useMiddlewares = app => {
 
 })()
 ```
+
+## 部分运行截图
+<div>
+<img alt="主页" width="200" src="https://q956164483.github.io/chatRoom/resources/1.PNG"/>
+<img alt="聊天" width="200" src="https://q956164483.github.io/chatRoom/resources/2.PNG"/>
+<img alt="群信息" width="200" src="https://q956164483.github.io/chatRoom/resources/3.PNG"/>
+<img alt="个人信息" width="200" src="https://q956164483.github.io/chatRoom/resources/4.PNG"/>
+<img alt="发送表情" width="200" src="https://q956164483.github.io/chatRoom/resources/5.PNG"/>
+<img alt="发送图片和文件" width="200" src="https://q956164483.github.io/chatRoom/resources/6.PNG"/>
+<img alt="图片裁剪" width="200" src="https://q956164483.github.io/chatRoom/resources/7.PNG"/>
+<img alt="菜单" width="200" src="https://q956164483.github.io/chatRoom/resources/8.PNG"/>
+<img alt="群聊搜索" width="200" src="https://q956164483.github.io/chatRoom/resources/9.PNG"/>
+<img alt="群信息" width="200" src="https://q956164483.github.io/chatRoom/resources/10.PNG"/>
+
