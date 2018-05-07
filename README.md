@@ -30,18 +30,20 @@ pm2自动部署
 
 
 ## 运行截图
-
-![主页]()
-![聊天]()
-![群信息]()
-![个人信息]()
-![发送表情]()
-![发送图片和文件]()
-![图片裁剪]()
-![菜单]()
-![群聊搜索]()
-![群信息]()
-![建群]()
+<center>
+<img alt="主页" width="300" src="https://q956164483.github.io/chatRoom/resources/1.PNG"/>
+<img alt="聊天" width="300" src="https://q956164483.github.io/chatRoom/resources/2.PNG"/>
+<img alt="群信息" width="300" src="https://q956164483.github.io/chatRoom/resources/3.PNG"/>
+<img alt="个人信息" width="300" src="https://q956164483.github.io/chatRoom/resources/4.PNG"/>
+<img alt="发送表情" width="300" src="https://q956164483.github.io/chatRoom/resources/5.PNG"/>
+<img alt="发送图片和文件" width="300" src="https://q956164483.github.io/chatRoom/resources/6.PNG"/>
+<img alt="图片裁剪" width="300" src="https://q956164483.github.io/chatRoom/resources/7.PNG"/>
+<img alt="菜单" width="300" src="https://q956164483.github.io/chatRoom/resources/8.PNG"/>
+<img alt="群聊搜索" width="300" src="https://q956164483.github.io/chatRoom/resources/9.PNG"/>
+<img alt="群信息" width="300" src="https://q956164483.github.io/chatRoom/resources/10.PNG"/>
+<img alt="建群" width="300" src="https://q956164483.github.io/chatRoom/resources/11.PNG"/>
+<img alt="消息推送" width="300" src="https://q956164483.github.io/chatRoom/resources/12.PNG"/>
+</center>
 
 ## 部分代码
 客户端 main.js
