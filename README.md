@@ -173,3 +173,5 @@ const useMiddlewares = app => {
 <img alt="群聊搜索" width="200" src="https://q956164483.github.io/chatRoom/resources/9.PNG"/>
 <img alt="群信息" width="200" src="https://q956164483.github.io/chatRoom/resources/10.PNG"/>
 
+### 最后贴上[git地址](https://github.com/Q956164483/chatRoom)欢迎给个star
+
