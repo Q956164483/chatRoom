@@ -48,7 +48,7 @@ export default {
         this.$router.push('/createGroup')
       } else if (key === 3) {
         this.$router.push('/searchChat')
-      } else if (key === 5) {
+      } else if (key === 4) {
         this.$router.push('/movie/search')
       }
     },
