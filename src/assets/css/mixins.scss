@@ -1,0 +1,67 @@
+@mixin keyframes($animation){
+  @-webkit-keyframes #{$animation} {
+    @content;
+  }
+  @keyframes #{$animation} {
+    @content;
+  }
+}
+@mixin bg-size($backgroundSize){
+  background-size:$backgroundSize;
+  background-repeat:no-repeat;
+  background-position:center;
+  display: block;
+}
+
+@mixin bg-image($url){
+  background-image: url($url + ".png");
+  // @media (-webkit-min-device-pixel-ratio: 3),(min-device-pixel-ratio){
+  //   background-image url($url + "@3x.png")
+  // }
+}
+@mixin border-1px($color){
+  position:relative;
+  &:after{
+    display: block;
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    border-top: 1px solid $color;
+    width: 100%;
+    content: '';
+  }
+}
+  
+
+@mixin border-none(){
+  &:after{
+    display: none;
+  }
+}
+// 方案已改，布局和字体直接用px/100=rem，已经用到pxToRem和font-dpr的地方不动
+@function pxToRem($px) {
+    @return $px / 100 * 1rem;
+}
+
+// 用于字体 eg: @include font-dpr(16px);
+@mixin font-dpr($font-size) {
+    font-size: $font-size;
+    [data-dpr="2"] & {
+        font-size: $font-size * 2;
+    }
+    [data-dpr="3"] & {
+        font-size: $font-size * 3;
+    }
+}
+
+@mixin btn($width,$height,$fsize,$radius) {
+  display: inline-block;
+  font-size: $fsize;
+  width: $width;
+  height: $height;
+  line-height: $height;
+  text-align: center;
+  border: 1px solid $theme-color;
+  border-radius: $radius;
+  text-decoration: none;
+}
