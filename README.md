@@ -1,4 +1,4 @@
-## vue+koa2即时聊天，实时推送比特币价格，爬取电影网站
+## vue+koa2聊天室，实时推送比特币价格，爬取电影网站
 ### 技术栈
 vue+vuex+vue-router+socket.io+koa2+mongodb+pm2自动化部署+图灵机器人+[npm script打包，cdn同步，服务器上传一个命令全搞定]
 ### 功能清单
@@ -22,9 +22,12 @@ vue+vuex+vue-router+socket.io+koa2+mongodb+pm2自动化部署+图灵机器人+[n
 
 前端一键打包同步到七牛cdn并上传到服务器的实现
 
-pm2自动部署
+server端的pm2自动部署
 
-### [效果演示](http://47.104.24.198/movie-chat/#/)chrome下F12或者手机打开预览
+### [效果演示](http://47.104.24.198/movie-chat/#/)chrome下F12或者手机扫描下面的二维码
+
+<img src="https://q956164483.github.io/chatRoom/resources/phone-code.png">
+
 后端的代码暂时不开放出来，因为涉及到很多个人的配置数据，如果实在需要可以加微信 MSC199312 （需要付费0.0！），毕竟这个小项目断断续续也做了几个星期，也还花了些心思，而且涉及的知识点也都还是很广很实用的，还望理解，其实主要原因还是穷[泪奔]
 
 ### 部分代码

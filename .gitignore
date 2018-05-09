@@ -1,6 +1,6 @@
 .DS_Store
 node_modules/
-scripts/cdn.js*
+scripts/
 gulpfile.js*
 npm-debug.log*
 yarn-debug.log*

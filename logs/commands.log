@@ -1,8 +1,7 @@
-Last login: Mon May  7 14:40:52 2018 from 211.161.168.87
+Last login: Tue May  8 19:44:00 2018 from 43.227.139.223
 
 Welcome to Alibaba Cloud Elastic Compute Service !
 
 [root@izm5e6fcmqve6jej0ynnuyz ~]# rm -rf /home/www/html/movie-chat
-exit
 [root@izm5e6fcmqve6jej0ynnuyz ~]# exit
 logout
